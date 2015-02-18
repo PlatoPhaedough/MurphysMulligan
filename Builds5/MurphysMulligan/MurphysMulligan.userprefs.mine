@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\Bangerang2\Builds\Working\Bangarang\Assets\Scripts\CompanionMachine.cs">
+    <Files>
+      <File FileName="..\..\..\..\..\Bangerang2\Builds\Working\Bangarang\Assets\Scripts\EnemyMachine.cs" Line="352" Column="67" />
+      <File FileName="..\..\..\..\..\Bangerang2\Builds\Working\Bangarang\Assets\Scripts\Character\Character.cs" Line="5" Column="46" />
+      <File FileName="..\..\..\..\..\Bangerang2\Builds\Working\Bangarang\Assets\Scripts\CompanionMachine.cs" Line="159" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

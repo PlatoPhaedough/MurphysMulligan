@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{9C0B8981-ED73-604E-9046-4708BC0DD16C}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_3;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\DeleteNoDrawFaces.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\ExportObj.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\MakeAsset.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\ProBuilderizeGameObject.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Actions\StripProBuilderScripts.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\Bridge.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\ConformNormals.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\ConnectEdges.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\DetachDeleteFace.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\ExtrudeFace.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\FlipFaces.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\PivotTool.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Geometry\VertexMergeWeld.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\CleanUpLeakedMeshes.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\ComponentCheck.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\DegenerateTris.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\FixGameObjectFlags.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\FixShaderWantsNormals.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\ForceMakeUnique.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\ForceMeshRefresh.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\InvertUVScale.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\RebuildSharedIndices.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Repair\RebuildVertexCaches.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\EdgeSelection.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\ExpandSelection.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\InvertSelection.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Selection\MaterialSelection.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Tools\AutoNodraw.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Tools\ProjectNodrawUtil.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Tools\SelectFacesWithMaterial.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\MenuItems\Window\ProBuilderOnlyWindows.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\ProBuilderMenuItems.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Editor\pb_Preferences.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProGrids\Editor\pg_Constant.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProGrids\Editor\pg_Editor.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProGrids\Editor\pg_GridRenderer.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProGrids\Editor\pg_Preferences.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\ProGroups\Scripts\Editor\ProGroups_About.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\QuickBrush\Editor\qb_About.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\QuickBrush\Editor\qb_Help.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\QuickBrush\Editor\qb_Painter.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\QuickBrush\Editor\qb_Utility.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\QuickBrush\Editor\qb_Window.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\QuickDecals\Editor\qd_Decal_Editor.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\QuickDecals\Editor\qd_Editor.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\QuickDecals\Editor\qd_Preferences.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\QuickEdit\Scripts\Editor\QuickEdit_About.cs" />
+     <Compile Include="Assets\SpacePyramids\Assets\ProCore\Shared\About\Editor\pc_AboutWindow.cs" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProGrids\Shader\PerspectiveGrid.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\QuickEdit\About\pc_AboutEntry_QuickEdit.txt" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\QuickBrush\Docs\ChangeLog.txt" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\About\changelog.txt" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Shader\VertexBillboard.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProGroups\About\changelog.txt" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\Shared\About\README.txt" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Shader\DiffuseVertexColorTransparency.shader" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\LightCone.shader" />
+     <None Include="Assets\ArtAssets\ShaderForge\Readme.txt" />
+     <None Include="Assets\ArtAssets\HologramCharacter\hologram.shader" />
+     <None Include="Assets\Resources\TerrainShaders\Trees\BillboardTree.shader" />
+     <None Include="Assets\Resources\TerrainShaders\Splats\FirstPass.shader" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\MaterialPlatform.shader" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\Vegetation.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\Elemental_Shader.shader" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\VertexAnimation.shader" />
+     <None Include="Assets\ArtAssets\Mask\mask.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\QuickEdit\About\changelog.txt" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\Cubemaps.shader" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\Refraction.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProGroups\About\pc_AboutEntry_ProGroups.txt" />
+     <None Include="Assets\ArtAssets\AnimatedChar 1\motion_pack.txt" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\Parallax.shader" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\LightWrapping.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Shader\UnlitColor.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\QuickDecals\About\changelog.txt" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\API Examples\Instantiation\README.txt" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\QuickDecals\About\pc_AboutEntry_QuickDecals.txt" />
+     <None Include="Assets\Resources\TerrainShaders\Details\VertexLit.shader" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\VertexColorRounding.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\TessellationDisplacement.shader" />
+     <None Include="Assets\Resources\TerrainShaders\Details\WavingGrassBillboard.shader" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\Tiles.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCoreCompleteBundle\!!README.txt" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProGrids\About\changelog.txt" />
+     <None Include="Assets\Resources\TerrainShaders\Splats\AddPass.shader" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\PixelRotator.shader" />
+     <None Include="Assets\ArtAssets\ShaderForge\Example Assets\Shaders\CustomLighting.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Shader\UnlitColor-Overlay.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\Shader\DiffuseVertexColorEmission.shader" />
+     <None Include="Assets\Resources\TerrainShaders\Details\WavingGrass.shader" />
+     <None Include="Assets\SpacePyramids\Assets\ProCore\ProBuilder\About\Credits.txt" />
+ <Reference Include="ShaderForge">
+ <HintPath>C:/Users/Steven/Desktop/WeAreHolograms/Assets/ArtAssets/ShaderForge/Editor/Code/ShaderForge.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderCore">
+ <HintPath>C:/Users/Steven/Desktop/WeAreHolograms/Assets/SpacePyramids/Assets/ProCore/ProBuilder/Classes/ProBuilderCore.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderMeshOps">
+ <HintPath>C:/Users/Steven/Desktop/WeAreHolograms/Assets/SpacePyramids/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps.dll</HintPath>
+ </Reference>
+ <Reference Include="ProBuilderEditor">
+ <HintPath>C:/Users/Steven/Desktop/WeAreHolograms/Assets/SpacePyramids/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="ProCore">
+ <HintPath>C:/Users/Steven/Desktop/WeAreHolograms/Assets/SpacePyramids/Assets/ProCore/Shared/Code/ProCore.dll</HintPath>
+ </Reference>
+ <Reference Include="SixBySeven">
+ <HintPath>C:/Users/Steven/Desktop/WeAreHolograms/Assets/SpacePyramids/Assets/ProCore/Shared/Code/SixBySeven.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>C:/Users/Steven/Desktop/WeAreHolograms/Assets/SpacePyramids/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+ <HintPath>C:/Users/Steven/Desktop/WeAreHolograms/Assets/SpacePyramids/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityVS.VersionSpecific">
+ <HintPath>C:/Users/Steven/Desktop/WeAreHolograms/Assets/SpacePyramids/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{84E26B97-BB00-5307-F8B3-0ADB514B456B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{A6700A97-8BA3-624F-F330-23DE2F33EB65}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{AB65662C-EFB8-940F-53E0-F48A51B23CC8}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{A9C77C69-1EF5-AA0E-D0F0-72CBA91F4790}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
