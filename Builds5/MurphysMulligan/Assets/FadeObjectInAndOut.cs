@@ -92,7 +92,6 @@ public class FadeObjectInAndOut : MonoBehaviour
 	// fade sequence
 	IEnumerator FadeSequence (float fadingOutTime)
 	{
-		Debug.Log ("ddd");
 		// log fading direction, then precalculate fading speed as a multiplier
 		bool fadingOut = (fadingOutTime < 0.0f);
 		float fadingOutSpeed = 1.0f / fadingOutTime; 
@@ -160,8 +159,8 @@ public class FadeObjectInAndOut : MonoBehaviour
 			startOut = true;
 		}
 		
-		
-		Debug.Log ("fade sequence end : " + fadingOut);
+		//works
+		//Debug.Log ("fade sequence end : " + fadingOut);
 
 		
 	}
