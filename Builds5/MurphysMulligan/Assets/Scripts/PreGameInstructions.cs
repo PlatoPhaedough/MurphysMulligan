@@ -67,7 +67,7 @@ public class PreGameInstructions : MonoBehaviour
         GUI.BeginGroup(new Rect((default_width / 2) - 350, (default_height / 2) - 235, 700, 550));
         GUI.Box(new Rect(10, 10, 700, 550), "");
         GUI.Label(new Rect(302, (default_height / 32) * 3, 96, 30), "How To Play");
-        Debug.Log("Hint page # = " + hintPageNumber);
+        //Debug.Log("Hint page # = " + hintPageNumber);
 
         if (hintPageNumber == 1)
         {
@@ -85,9 +85,9 @@ public class PreGameInstructions : MonoBehaviour
                  "Next"))
             {
                 //PlayAudioClip(AcceptButtonClick);
-                Debug.Log("Hint page # = " + hintPageNumber);
+                //Debug.Log("Hint page # = " + hintPageNumber);
                 hintPageNumber = 2;
-                Debug.Log("Hint page # = " + hintPageNumber);
+                //Debug.Log("Hint page # = " + hintPageNumber);
             }
         }
 
