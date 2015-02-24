@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour {
 				showUpText = true;*/
 				
 		}
+		Debug.Log ("We made a change!");
 		//StartCoroutine (GameStateMachine ());
 	}
 
